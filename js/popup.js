@@ -6,7 +6,7 @@
   let form = $('form')
   let p = $('p')
   buuton.click(function (e) {
-    $.post('https://www.maiff.cn/login',{
+    $.post('https://www.maiff.cn/diclogin',{
       username: username.val(),
       password: password.val()
     }).then((data) => {
